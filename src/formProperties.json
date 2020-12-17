@@ -1,0 +1,24 @@
+{
+  "title": "Form Properties",
+  "id": "FormProperties",
+  "description": "Template form",
+  "properties": {},
+  "Style": [
+    { "value": "default", "label": "default" },
+    { "value": "primary", "label": "Primary" },
+    { "value": "warning", "label": "warning" },
+    { "value": "info", "label": "info" },
+    { "value": "success", "label": "success" },
+    { "value": "danger", "label": "danger" }
+  ],
+  "Columns": [
+    { "value": "col-12", "label": "Column 1" },
+    { "value": "col-6", "label": "Column 2" },
+    { "value": "col-4", "label": "Column 3" }
+  ],
+  "layout": [
+    { "value": "form-vertical", "label": "Vertical" },
+    { "value": "form-horizont", "label": "Horizontal" },
+    { "value": "form-inline", "label": "Inline" }
+  ]
+}

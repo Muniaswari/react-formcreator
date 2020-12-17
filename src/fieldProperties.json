@@ -1,0 +1,96 @@
+{
+  "text": {
+    "placeholder": "",
+    "className": "form-control",
+    "readonly": false,
+    "disabled": false,
+    "autofocus": false,
+    "pattern": "",
+    "minLength": "",
+    "maxLength": ""
+  },
+  "number": {
+    "placeholder": "",
+    "className": "form-control",
+    "readonly": false,
+    "disabled": false,
+    "autofocus": false,
+    "value": "",
+    "pattern": "",
+    "minimum": "",
+    "maximum": "",
+    "step": ""
+  },
+  "dropdown": {
+    "className": "form-control",
+    "required": false,
+    "readonly": false,
+    "disabled": false,
+    "autofocus": false,
+    "value": ["option1", "option2"]
+  },
+  "checkbox": {
+    "className": "form-control",
+    "required": false,
+    "readonly": false,
+    "disabled": false,
+    "autofocus": false,
+    "default": "false"
+  },
+  "radio": {
+    "className": "form-control",
+    "required": false,
+    "readonly": false,
+    "disabled": false,
+    "autofocus": false,
+    "default": "false"
+  },
+  "password": {
+    "className": "form-control",
+    "required": false,
+    "readonly": false,
+    "disabled": false,
+    "autofocus": false,
+    "default": "false"
+  },
+  "email": {
+    "className": "form-control",
+    "required": false,
+    "readonly": false,
+    "disabled": false,
+    "autofocus": false,
+    "default": "false"
+  },
+  "switch": {
+    "className": "form-control",
+    "required": false,
+    "readonly": false,
+    "disabled": false,
+    "autofocus": false,
+    "default": "false"
+  },
+  "name": {
+    "className": "form-control",
+    "required": false,
+    "readonly": false,
+    "disabled": false,
+    "autofocus": false,
+    "fields": { "firstname": true, "lastname": true }
+  },
+  "address": {
+    "className": "form-control",
+    "required": false,
+    "readonly": false,
+    "disabled": false,
+    "autofocus": false,
+    "fields": {
+      "address1": true,
+      "address2": true,
+      "state": true,
+      "country": true,
+      "pincode": true
+    }
+  },
+  "checklist": {},
+  "table": {}
+}

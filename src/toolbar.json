@@ -1,0 +1,138 @@
+{
+  "commonField": {
+    "title": "Common Fields",
+    "icon": {
+      "open": "fa fa-angle-double-down",
+      "close": "fa fa-angle-double-right"
+    },
+    "name": "commonField",
+    "ariaexpanded": true,
+    "ariacontrols": "commonFieldDiv",
+    "items": [
+      {
+        "title": "Text",
+        "icon": "fa fa-address-card-o",
+        "eventClick": "handleClick",
+        "tooltip": "Text Field",
+        "name": "text",
+        "type": "string"
+      },
+      {
+        "title": "Number",
+        "icon": "fa fa-address-card-o",
+        "eventClick": "handleClick",
+        "tooltip": "Number Field",
+        "name": "number",
+        "type": "number"
+      },
+      {
+        "title": "Dropdown",
+        "icon": "fa fa-user-o",
+        "event": "handleClick",
+        "tooltip": "Dropdown Field",
+        "name": "dropdown",
+        "type": "string"
+      },
+      {
+        "title": "checkbox",
+        "icon": "fa fa-check-square-o",
+        "event": "handleClick",
+        "tooltip": "Checkbox Field",
+        "name": "checkbox",
+        "type": "boolean"
+      },
+      {
+        "title": "password",
+        "icon": "fa fa-key",
+        "event": "handleClick",
+        "tooltip": "password",
+        "name": "password",
+        "type": "string"
+      },
+      {
+        "title": "email",
+        "icon": "fa fa-envelope",
+        "event": "handleClick",
+        "tooltip": "email",
+        "name": "email",
+        "type": "string"
+      },
+      {
+        "title": "button",
+        "icon": "fa fa-dot-circle-o",
+        "event": "handleClick",
+        "tooltip": "button",
+        "name": "button",
+        "type": "string"
+      },
+      {
+        "title": "switch",
+        "icon": "fa fa-check-square-o",
+        "event": "handleClick",
+        "tooltip": "Checkbox Field",
+        "name": "checkbox",
+        "type": "string"
+      },
+      {
+        "title": "radio",
+        "icon": "fa fa-dot-circle-o",
+        "event": "handleClick",
+        "tooltip": "radio Field",
+        "name": "radio",
+        "type": "string"
+      }
+    ]
+  },
+  "specificField": {
+    "title": "Specific Fields",
+    "icon": {
+      "open": "fa fa-angle-double-down",
+      "close": "fa fa-angle-double-right"
+    },
+    "name": "specificField",
+    "ariaexpanded": false,
+    "ariacontrols": "specificFieldDiv",
+    "items": [
+      {
+        "title": "Name Field",
+        "icon": "fa fa-address-card-o",
+        "eventClick": "handleClick",
+        "tooltip": "Name Field",
+        "name": "name"
+      },
+      {
+        "title": "Address",
+        "icon": "fa fa-user-o",
+        "event": "handleClick",
+        "tooltip": "Address Field",
+        "name": "address"
+      }
+    ]
+  },
+  "AdvanceField": {
+    "title": "Advance Fields",
+    "icon": {
+      "open": "fa fa-angle-double-down",
+      "close": "fa fa-angle-double-right"
+    },
+    "name": "advanceField",
+    "ariaexpanded": false,
+    "ariacontrols": "advanceFieldDiv",
+    "items": [
+      {
+        "title": "checklist Field",
+        "icon": "fa fa-th-list",
+        "eventClick": "handleClick",
+        "tooltip": "Checklist Field",
+        "name": "checklist"
+      },
+      {
+        "title": "table",
+        "icon": "fa fa-th",
+        "event": "handleClick",
+        "tooltip": "Table Field",
+        "name": "table"
+      }
+    ]
+  }
+}
